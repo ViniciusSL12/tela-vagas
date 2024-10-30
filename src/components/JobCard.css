@@ -1,0 +1,28 @@
+.job-card {
+    border: 1px solid #ddd;
+    padding: 50px;
+    margin: 60px;
+    background-color: #fff;
+    width: 250px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .job-logo {
+    position:sticky;
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .apply-button {
+    background-color: #3cba54;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+  }
