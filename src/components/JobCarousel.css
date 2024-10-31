@@ -5,14 +5,14 @@
     gap: 20px;
   }
   
-  .arrow {
+  .arco {
     font-size: 24px;
     cursor: pointer;
     background: none;
     border: none;
   }
   
-  .left-arrow, .right-arrow {
-    color: #0057b8;
+  .arco-esquerdo, .arco-direito{
+    color: #073763;
   }
   

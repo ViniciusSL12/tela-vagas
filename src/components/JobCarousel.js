@@ -10,9 +10,9 @@ const JobCarousel = ({ jobs }) => {
 
   return (
     <div className="carousel">
-      <button onClick={prevJob} className="arrow left-arrow">◀</button>
+      <button onClick={prevJob} className="arco arco-esquerdo">◀</button>
       <JobCard job={jobs[index]} />
-      <button onClick={nextJob} className="arrow right-arrow">▶</button>
+      <button onClick={nextJob} className="arco arco-direito">▶</button>
     </div>
   );
 };
