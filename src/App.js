@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import JobCarousel from './components/JobCarousel';
+import JobCarrossel from './components/JobCarrossel';
 import './App.css';
 import logo from './assets/logo.png';
 
@@ -30,7 +30,7 @@ function App() {
       <main>
       <h2 className="abc2">RECIFE</h2>
         <h2 className="abc">290 vagas encontradas</h2> <hr className='linha'></hr>
-        <JobCarousel jobs={jobs} />
+        <JobCarrossel jobs={jobs} />
       </main>
       <Footer />
     </div>

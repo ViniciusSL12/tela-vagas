@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import JobCard from './JobCard';
-import './JobCarousel.css';
+import './JobCarrossel.css';
 
-const JobCarousel = ({ jobs }) => {
+const JobCarrossel = ({ jobs }) => {
   const [index, setIndex] = useState(0);
 
   const nextJob = () => setIndex((index + 1) % jobs.length);
@@ -17,4 +17,4 @@ const JobCarousel = ({ jobs }) => {
   );
 };
 
-export default JobCarousel;
+export default JobCarrossel;
